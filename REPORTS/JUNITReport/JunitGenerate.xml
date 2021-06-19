@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="42.161153">
+<testcase classname="To validate the login functionality of the given application" name="To verify the login functionality with invalid username and valid password for facebook" time="24.62951">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.steps.StepDefinition1.user_will_enter_the_and(StepDefinition1.java:39)&#13;&#10;&#9;at ✽.User will enter the username and password(file:src/test/resources/login.feature:8)&#13;&#10;"><![CDATA[And User will hit the URl...................................................passed
+When User will enter the username and password..............................failed
+And User will click the login button........................................skipped
+Then User should be displayed with error MSG................................skipped
+And User should be displayed the different URL..............................skipped
+But User should be displayed with Home Page.................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.steps.StepDefinition1.user_will_enter_the_and(StepDefinition1.java:39)
+	at ✽.User will enter the username and password(file:src/test/resources/login.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of the given application" name="To verify the login functionality with valid username and valid password for Instagram" time="12.247208">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.steps.StepDefinition2.user_will_enter_the_Username_and_Password(StepDefinition2.java:24)&#13;&#10;&#9;at ✽.User will enter the Username and Password(file:src/test/resources/login.feature:22)&#13;&#10;"><![CDATA[And User will hit the url of app............................................passed
+When User will enter the Username and Password..............................failed
+And User will click the LogIn button........................................skipped
+Then User should be displayed with Error MSG................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.steps.StepDefinition2.user_will_enter_the_Username_and_Password(StepDefinition2.java:24)
+	at ✽.User will enter the Username and Password(file:src/test/resources/login.feature:22)
+]]></failure>
+</testcase>
+<testcase classname="To validate the login functionality of the given applicatioN" name="To verify the login functionality with invalid username and valid password for INStagram" time="5.284435">
+<system-out><![CDATA[And User will hit the Url of app............................................passed
+When User will enter the Username anD Password..............................passed
+And User will click the LogIn buttoN........................................passed
+Then User should be displayed with Error MsG................................passed
+]]></system-out>
+</testcase>
+</testsuite>
